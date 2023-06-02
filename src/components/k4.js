@@ -1,28 +1,27 @@
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import styled from 'styled-components';
 
-export default function Example(props) {
-const Divv  = styled.div`
+export default function Example4(props) {
+const Divv1  = styled.div`
 display: flex ;
 flex-direction : column;
 :&hover: black;
 `
 
-
     const {verilerName,verilerGender,verilerHeight,verilerMass,verilerBirthYear,verilerEyeColor,verilerHairColor,verilerSkinColor,verilerName1,verilerGender1,verilerHeight1,verilerMass1,verilerBirthYear1,verilerEyeColor1,verilerHairColor1,verilerSkinColor1,verilerName2,verilerGender2,verilerHeight2,verilerMass2,verilerBirthYear2,verilerEyeColor2,verilerHairColor2,verilerSkinColor2,verilerName3,verilerGender3,verilerHeight3,verilerMass3,verilerBirthYear3,verilerEyeColor3,verilerHairColor3,verilerSkinColor3,verilerName4,verilerGender4,verilerHeight4,verilerMass4,verilerBirthYear4,verilerEyeColor4,verilerHairColor4,verilerSkinColor4,verilerName5,verilerGender5,verilerHeight5,verilerMass5,verilerBirthYear5,verilerEyeColor5,verilerHairColor5,verilerSkinColor5}=props;
   return (
     <Accordion>
-      <AccordionItem header={verilerName}>
-      <Divv >
-            <p> gender:{verilerGender}</p>
-            <p>Height:{verilerHeight}</p>
-            <p> Mass:{verilerMass}</p>
-            <p>BirthYear:{verilerBirthYear}</p>
-            <p>Eye Color:{verilerEyeColor} </p>
-            <p> Hair Color:{verilerHairColor}</p>
-            <p>Skin Color:{verilerSkinColor}</p>
+      <AccordionItem header={verilerName4}>
+      <Divv1 >
+            <p> gender:{verilerGender4}</p>
+            <p>Height:{verilerHeight4}</p>
+            <p> Mass:{verilerMass4}</p>
+            <p>BirthYear:{verilerBirthYear4}</p>
+            <p>Eye Color:{verilerEyeColor4} </p>
+            <p> Hair Color:{verilerHairColor4}</p>
+            <p>Skin Color:{verilerSkinColor4}</p>
 
-      </Divv>
+      </Divv1>
       </AccordionItem>
 
 
